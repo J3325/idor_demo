@@ -5,9 +5,9 @@ Misalkan sebuah URL:
 ```
 https://example.com/profile?id=1
 ```
-Jika pengguna cukup mengganti ```id=1``` menjadi ```id=2``` dan berhasil melihat profil pengguna lain tanpa validasi otorisasi, maka aplikasi tersebut rentan terhadap IDOR.
-### Link Artikel
-[klik link disini](https://medium.com/@zakyputra628/idor-ketika-url-bisa-jadi-kunci-untuk-bobol-data-orang-lain-7b68073f56d0)<br>
+Jika pengguna cukup mengganti ```id=1``` menjadi ```id=2``` dan berhasil melihat profil pengguna lain tanpa validasi otorisasi, maka aplikasi tersebut rentan terhadap IDOR.<br>
+
+[Artikel IDOR](https://medium.com/@zakyputra628/idor-ketika-url-bisa-jadi-kunci-untuk-bobol-data-orang-lain-7b68073f56d0)<br>
 # Eksperimen sederhana Pemahaman Kerentanan IDOR
 ## Buat Databases Dummy di mysql
 ```
